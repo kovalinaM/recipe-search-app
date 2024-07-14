@@ -1,8 +1,10 @@
+import {BannerSlider} from "../../components/common";
+
 const HomePage = () => {
     return (
-        <div>
-            Home page 
-        </div>
+        <main className="home-page custom-min-h pt-[4px]">
+            <BannerSlider/>
+        </main>
     );
 }
 

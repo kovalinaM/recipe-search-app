@@ -8,7 +8,7 @@ import {
     ViewError,
     ViewSearchResult,
 } from "./views";
-import BaseLayout from "./layouts/baseLayout";
+import BaseLayout from "./layouts/BaseLayout";
 
 // array of routes should be passed here
 const router = createBrowserRouter([

@@ -1,4 +1,4 @@
-import {BannerSlider, CategorySlider, Title} from "../../components/common";
+import {BannerSlider, CategorySlider, MealSlider, Title} from "../../components/common";
 import {pattern_one} from "../../utils/images.ts";
 import {dishTypeData} from "../../data.ts";
 import {Link} from "react-router-dom";
@@ -32,12 +32,18 @@ const HomePage = () => {
                                 >
                                     <img src={dish.image} alt={dish?.type}/>
                                     <p className='dishes-item-name'>
-                                        {dish?.type}    
+                                        {dish?.type}
                                     </p>
                                 </Link>
                             ))
                         }
                     </div>
+                </div>
+            </section>
+            <section className='meals'>
+                <div className="container">
+                    <Title subTitle='Get Meal Ready' mainTitle='Recipe Meals'/>
+                    <MealSlider/>
                 </div>
             </section>
         </main>

@@ -5,3 +5,4 @@ export {default as Searchbar} from './Searchbar';
 export {default as BannerSlider} from './BannerSlider';
 export {default as Title} from './Title';
 export {default as CategorySlider} from './CategorySlider';
+export {default as MealSlider} from './MealSlider';
